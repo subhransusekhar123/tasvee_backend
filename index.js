@@ -6,8 +6,8 @@ const app = express();
 const mongoDB = require('./DB/config')
 const mongolink = process.env.mongoose_URL;
 const {tasvee_model} = require('./DB/user')
-const JWT = require('jsonwebtoken');
-var privateKey = "subhransu";
+
+
 
    
 app.use(cors())    
